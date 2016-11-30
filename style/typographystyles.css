@@ -1,7 +1,8 @@
-/*** KERNING & LEADING ASSIGNMENT STYLES ***/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Tienne:900');
 
-/* Do not change this style */
-.rectangle {
+/** Kerning &  Leading **/
+.rectangle{
   font-family: "Helvetica";
   font-size: 1em;
   background-color: white;
@@ -11,58 +12,38 @@
   margin: 0 auto;
 }
 
-#kerning {
-  /* Use the letter-spacing property to change the kerning on the text to fill the div below
-
-  http://www.w3schools.com/cssref/pr_text_letter-spacing.asp
-  */
-  letter-spacing: 2.85px;
+#kerning{
+  letter-spacing: 2.2px;
 }
 
-#leading {
-  /* Use the line-height property to change the leading on the text to fill the div below
-
-  http://www.w3schools.com/cssref/pr_dim_line-height.asp
-  */
-  line-height: 2.85;
+#leading{
+  line-height: 2.8;
 }
 
-/*** TEXT ALIGNMENT ASSIGNMENT STYLES ***/
-
-/* Do not change this style */
+/** Alignment **/
 .align {
   max-width: 80%;
   margin: 1em auto;
 }
 
-#left_align {
-  /* Use the text-align property to left-align the text
-   http://www.w3schools.com/cssref/pr_text_text-align.asp */
-   text-align: left;
+#left_align{
+  text-align: left;
 }
 
-#right_align {
-  /* Use the text-align property to right-align the text
-   http://www.w3schools.com/cssref/pr_text_text-align.asp */
-   text-align: right;
+#right_align{
+  text-align: right;
 }
 
-#justify {
-  /* Use the text-align property to justify the text
-   http://www.w3schools.com/cssref/pr_text_text-align.asp */
-   text-align: justify;
+#justify{
+  text-align: justify;
 }
 
-#center {
-  /* Use the text-align property to justify the text
-   http://www.w3schools.com/cssref/pr_text_text-align.asp */
-   text-align: center;
+#center{
+  text-align: center;
 }
 
-/*** HIERARCHY ASSIGNMENT STYLES ***/
-
-/* Do not change this style */
-section {
+/** Hierarchy **/
+section{
   font-family: "Helvetica";
   font-size: 1em;
   background-color: white;
@@ -72,61 +53,65 @@ section {
   margin: 0 auto;
 }
 
-/* Do not change this style */
 section p {
-  font-size: 1.1em;
+  font-size: 1em;
   margin: 2em 4em;
-  max-width: 55%;
+  max-width: 50%;
 }
 
-/* Change this style */
-#biggerText {
-
+#target {
+  font-size: 2em;
+  line-height: 1;
 }
 
-/* Change this style */
 .indent {
-
+  margin-left: 40%;
 }
-/* Place this at the very top of your typographystyles.css document */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+#mainTitle{
+  margin-left: 20%;
+  margin-top: 10%;
+  font-size: 1.6em;
+  line-height: 1.2;
+}
 
-/* Place these styles towards the bottom of your typographystyles.css document */
+#name {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: black;
+}
+
+#dateTime{
+  margin-top: 8%;
+  margin-bottom: 15%;
+}
+
+.details {
+  font-size: 0.8em;
+}
+
+
+#weight1{
+  font-weight: 100;
+}
+#weight2{
+  font-weight: 300;
+}
+#weight3{
+  font-weight: 400;
+}
+#weight4{
+  font-weight: 500;
+}
+#weight5{
+  font-weight: 900;
+}
 
 .weights {
   font-family: "Roboto";
   font-size: 32px;
 }
 
-#weight1 {
-  /* Change the font-weight property to give it a thin-weight */
-}
-
-#weight2 {
-  /* Change the font-weight property to give it a light-weight */
-}
-
-#weight3 {
-  /* Change the font-weight property to give it a regular-weight */
-}
-
-#weight4 {
-  /* Change the font-weight property to give it a bold-weight */
-}
-
-#weight5 {
-  /* Change the font-weight property to give it a ultra-bold-weight */
-}
-/*
-  POSTER TYPOGRAPHY ASSIGNMENT CRITERIA:
-  * Use two different typefaces (a serif and a sans-serif)
-  * Use at least three different font-sizes
-  * Use a color that contrasts with the background image
-      * Recommended to use the text-shadow property to increase contrast
-  * Use a hierarchy that emphasizes the most important words
-      * Font size, font weight, logical grouping, orientation
-  */
 
 #grandCanyon {
   background-image: url(../images/grand_canyon.jpg);
@@ -135,4 +120,69 @@ section p {
   height: 500px;
   width: 800px;
   margin: 0 auto;
+
+}
+
+.text {
+  margin-left: 3%;
+  padding-top: 10%;
+  max-width: 50%;
+  text-transform: uppercase;
+  color: brown;
+  font-family: 'Arial Black', serif;
+  line-height: 0.9;
+  -webkit-text-stroke: thin black;
+}
+
+#title, #gc {
+  font-weight: black;
+  text-shadow: 3px 3px 5px black;
+  font-family: "Arial Black";
+}
+
+#title {
+  letter-spacing: -1px;
+  font-size: 35px;
+
+}
+
+#gc {
+  font-size: 55px;
+  text-align: justify;
+  font-family: "Arial Black";
+}
+
+#description, #url {
+  font-weight: black;
+  text-shadow: 2px 2px 3px black;
+  font-family: "Arial Black";
+
+
+}
+
+#description {
+  font-size: 22px;
+  padding-top: 20%;
+}
+
+#url {
+  font-size: 20px;
+  padding-top: 25%;
+}
+
+#unitProj {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 2em;
+  border: 3px solid black;
+  width: 60%;
+  margin: 0 auto;
+  background-color: #bbb;
+  padding-bottom: 30px;
+  color: #e81c4f;
+  text-shadow: 3px 3px black;
+}
+
+a {
+  text-decoration: none
 }
