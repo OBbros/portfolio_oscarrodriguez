@@ -1,1 +1,181 @@
+#Quote1 {
+  background-image: url(../images/rooftoping2.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 800px;
+  margin: 0 auto;
 
+
+}
+
+.text {
+  margin-right: 0%;
+  padding-top: 5%;
+  max-width: 100%;
+  text-transform: uppercase;
+  color: #334D7F;
+  font-family: 'Arial Black', serif;
+  line-height: 0.9;
+  -webkit-text-stroke: thin black;
+  text-align: center;
+
+
+
+}
+
+#line1 {
+  font-weight: black;
+  text-shadow: 3px 3px 5px black;
+  font-family: "Arial Black";
+  font-size: 2em;
+}
+
+
+#line2 {
+  font-weight: black;
+  text-shadow: 3px 3px 5px black;
+  font-family: "Arial Black";
+  font-size: 2em;
+}
+
+#line3 {
+  font-weight: black;
+  text-shadow: 3px 3px 5px black;
+  font-family: "Arial Black";
+  font-size: 2em;
+
+}
+
+#line4 {
+  font-weight: black;
+  text-shadow: 3px 3px 5px black;
+  font-family: "Arial Black";
+  font-size: 2em;
+}
+
+#description, #url {
+  font-weight: black;
+  text-shadow: 2px 2px 3px black;
+  font-family: "Arial Black";
+
+
+}
+
+#description {
+  font-size: 2em;
+  padding-top: 20%;
+}
+
+#url {
+  font-size: 2em;
+  padding-top: 25%;
+}
+
+#unitProj {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 2em;
+  border: 3px solid black;
+  width: 60%;
+  margin: 0 auto;
+  background-color: #bbb;
+  padding-bottom: 30px;
+  color: #e81c4f;
+  text-shadow: 3px 3px black;
+}
+
+a {
+  text-decoration: none
+}
+
+
+#Quote2 {
+  background-image: url(../images/casey.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 800px;
+  margin: 3;
+
+
+
+}
+
+.text {
+  margin-right: 0%;
+  padding-top: 5%;
+  max-width: 100%;
+  text-transform: uppercase;
+  color: #334D7F;
+  font-family: 'Arial Black', serif;
+  line-height: 0.9;
+  -webkit-text-stroke: thin black;
+  text-align: center;
+
+
+
+}
+
+#line1 {
+  font-weight: black;
+  text-shadow: 3px 3px 5px black;
+  font-family: "Arial Black";
+  font-size: 2em;
+}
+
+
+#line2 {
+  font-weight: black;
+  text-shadow: 3px 3px 5px black;
+  font-family: "Arial Black";
+  font-size: 2em;
+}
+
+#line3 {
+  font-weight: black;
+  text-shadow: 3px 3px 5px black;
+  font-family: "Arial Black";
+  font-size: 2em;
+
+}
+
+#line4 {
+  font-weight: black;
+  text-shadow: 3px 3px 5px black;
+  font-family: "Arial Black";
+  font-size: 2em;
+}
+
+#description, #url {
+  font-weight: black;
+  text-shadow: 2px 2px 3px black;
+  font-family: "Arial Black";
+
+
+}
+
+#description {
+  font-size: 2em;
+  padding-top: 20%;
+}
+
+#url {
+  font-size: 2em;
+  padding-top: 25%;
+}
+
+#unitProj {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 2em;
+  border: 3px solid black;
+  width: 60%;
+  margin: 0 auto;
+  background-color: #bbb;
+  padding-bottom: 30px;
+  color: #e81c4f;
+  text-shadow: 3px 3px black;
+}
+
+a {
+  text-decoration: none
+}
