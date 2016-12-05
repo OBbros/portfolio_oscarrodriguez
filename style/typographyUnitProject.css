@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 #Quote1 {
   background-image: url(../images/rooftoping2.jpg);
   background-size: cover;
@@ -14,8 +15,7 @@
   max-width: 100%;
   text-transform: uppercase;
   color: #334D7F;
-  font-family: 'Arial Black', serif;
-  line-height: 0.9;
+  font-family: 'Indie Flower', cursive;
   -webkit-text-stroke: thin black;
   text-align: left;
 
@@ -26,7 +26,6 @@
 #line1 {
   font-weight: black;
   text-shadow: 3px 3px 5px black;
-  font-family: "Arial Black";
   font-size: 2em;
 }
 
@@ -34,14 +33,12 @@
 #line2 {
   font-weight: black;
   text-shadow: 3px 3px 5px black;
-  font-family: "Arial Black";
   font-size: 2em;
 }
 
 #line3 {
   font-weight: black;
   text-shadow: 3px 3px 5px black;
-  font-family: "Arial Black";
   font-size: 2em;
 
 }
@@ -49,14 +46,12 @@
 #line4 {
   font-weight: black;
   text-shadow: 3px 3px 5px black;
-  font-family: "Arial Black";
   font-size: 2em;
 }
 
 #description, #url {
   font-weight: black;
   text-shadow: 2px 2px 3px black;
-  font-family: "Arial Black";
 
 
 }
@@ -100,25 +95,11 @@ a {
 
 }
 
-.text {
-  margin-right: 0%;
-  padding-top: 5%;
-  max-width: 100%;
-  text-transform: uppercase;
-  color: #334D7F;
-  font-family: 'Arial Black', serif;
-  line-height: 0.9;
-  -webkit-text-stroke: thin black;
-  text-align: center;
 
-
-
-}
 
 #line1 {
   font-weight: black;
   text-shadow: 3px 3px 5px black;
-  font-family: "Arial Black";
   font-size: 2em;
 }
 
@@ -126,14 +107,12 @@ a {
 #line2 {
   font-weight: black;
   text-shadow: 3px 3px 5px black;
-  font-family: "Arial Black";
   font-size: 2em;
 }
 
 #line3 {
   font-weight: black;
   text-shadow: 3px 3px 5px black;
-  font-family: "Arial Black";
   font-size: 2em;
 
 }
@@ -141,14 +120,12 @@ a {
 #line4 {
   font-weight: black;
   text-shadow: 3px 3px 5px black;
-  font-family: "Arial Black";
   font-size: 2em;
 }
 
 #description, #url {
   font-weight: black;
   text-shadow: 2px 2px 3px black;
-  font-family: "Arial Black";
 
 
 }
